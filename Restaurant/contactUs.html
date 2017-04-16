@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mainah's - Menu</title>
+    <link href="restaurant.css" 
+      rel="stylesheet" 
+      type="text/css" />
+    </head>
+    <body>
+        <div align=center>
+        <h1>Mainah's</h1><hr/>
+        <table><tr><td><a href="index.html">Home</a></td><td><a href="menu.html">Menu</a></td><td><a href="contactUs.html">Contact Us</a></td></tr></table><hr/>
+
+        <form method="POST" action="">
+        <p>Name: <input type="textbox" name="cuName" /></p>
+        <p> Email: <input type="textbox" name="cuEmail" /></p>
+        <p> Phone: <input type="textbox" name="cuPhone" /></p>
+
+        <p>Reason for Inquiry: <Select name="cuReason">
+            <option value="0" selected>Catering</option>
+            <option value="1" >Private Party</option>
+            <option value="2" >Feedback</option>
+            <option value="3" >Other</option>
+        </Select>
+        <p>Additional Information <input type="textarea" rows="4" cols="50" name="cuInfo" /></textarea>
+
+        <p>Have you been to the restaurant?: <input type="radio" name="cuVisited" value="No" checked/><input type="radio" name="cuVisited" value="Yes"/>
+        
+        <p>Best days to contact you: <input type="checkbox" name="cuBestDays" value="M"/>M
+        <input type="checkbox" name="cuBestDays" value="T"/>T
+        <input type="checkbox" name="cuBestDays" value="W"/>W
+        <input type="checkbox" name="cuBestDays" value="TH"/>TH
+        <input type="checkbox" name="cuBestDays" value="F"/>F
+        <p> <input type="submit" value="Send Request" />
+        </form>
+
+        
+        <hr/>
+        <footer>
+            <p>187 Commercial Street<br>Portland ME<br>04101</p>
+            <p>(207) 522-8989</p>
+
+        </footer>
+        </div>
+    </body>
+</html>
